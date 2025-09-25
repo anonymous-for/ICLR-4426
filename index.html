@@ -14,10 +14,48 @@
             <p class="subtitle">ICLR 2026 submission #4426</p>
         </header>
 
+        <!-- Overview Block -->
+        <div class="overview-section">
+            <div class="overview-content">
+                <p class="overview-intro">
+                    <strong>👋 Welcome!</strong> This page presents a comprehensive analysis of motion segmentation challenges and our proposed solution. 
+                    <strong>We strongly encourage you to explore all four tabs</strong>, as each addresses critical issues in current motion segmentation research:
+                </p>
+                <div class="tab-overview-grid">
+                    <div class="tab-overview-item">
+                        <span class="tab-overview-number">1️⃣</span>
+                        <div class="tab-overview-text">
+                            <strong>Video Comparison:</strong> Visual comparison of our method against state-of-the-art baselines
+                        </div>
+                    </div>
+                    <div class="tab-overview-item">
+                        <span class="tab-overview-number">2️⃣</span>
+                        <div class="tab-overview-text">
+                            <strong>Evaluation Analysis:</strong> Why current metrics fail to capture false positives
+                        </div>
+                    </div>
+                    <div class="tab-overview-item">
+                        <span class="tab-overview-number">3️⃣</span>
+                        <div class="tab-overview-text">
+                            <strong>Annotation Analysis:</strong> The gap between VOS datasets and motion segmentation needs
+                        </div>
+                    </div>
+                    <div class="tab-overview-item">
+                        <span class="tab-overview-number">4️⃣</span>
+                        <div class="tab-overview-text">
+                            <strong>Motion Definition:</strong> What motion truly matters for practical applications
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Tab Navigation -->
         <div class="tab-navigation">
             <button class="tab-btn active" data-tab="comparison">Video Comparison</button>
             <button class="tab-btn" data-tab="evaluation">Evaluation Analysis</button>
+            <button class="tab-btn" data-tab="annotation">Annotation Analysis</button>
+            <button class="tab-btn" data-tab="motion">Motion Definition</button>
         </div>
 
         <!-- Tab 1: Video Comparison -->
@@ -46,7 +84,7 @@
                 </div>
             </div>
             <div class="layout-selector">
-                <label for="layoutSelect">Grid Layout in Detail Video Viewer:</label>
+                <label for="layoutSelect">Grid Layout in the Detail Video Viewer:</label>
                 <select id="layoutSelect" class="layout-select">
                     <option value="grid-2x1">2×1</option>
                     <option value="grid-2x2">2×2</option>
@@ -313,6 +351,223 @@
             </footer>
         </div>
         <!-- End Tab 2 -->
+
+        <!-- Tab 3: Annotation Analysis -->
+        <div id="tab-annotation" class="tab-content">
+            <!-- Problem Description -->
+            <div class="eval-section">
+                <div class="eval-header">
+                    <h2>📊 Dataset Annotation Challenges for Motion Segmentation</h2>
+                    <button id="toggleAnnotation" class="toggle-btn">▼ Hide</button>
+                </div>
+                <div id="annotationContent" class="explanation-content">
+                    <p>Motion segmentation faces unique challenges compared to video object segmentation, particularly in terms of dataset annotation quality and coverage.</p>
+                    
+                    <div class="advantage-box">
+                        <h3>🤔 Motion Segmentation (MS) vs Video Object Segmentation (VOS):</h3>
+                        <ul>
+                            <li><strong>Motion Segmentation</strong> seeks to automatically identify and segment <strong>objects that are moving in world coordinates</strong>, even under camera motion</li>
+                            <li><strong>Video Object Segmentation</strong> focuses on tracking specific objects of interest, regardless of their motion status</li>
+                            <li>This fundamental difference requires different annotation strategies</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="problem-box">
+                        <h3>⚠️ Dataset Scarcity:</h3>
+                        <ul>
+                            <li>High-quality datasets <strong>specifically annotated for motion segmentation are scarce</strong></li>
+                            <li>Most existing approaches are forced to rely on VOS datasets (e.g., DAVIS) for training and evaluation</li>
+                            <li>This mismatch between dataset design and task requirements creates systematic issues</li>
+                        </ul>
+                    </div>
+
+                    <div class="problem-box">
+                        <h3>⚠️ Incomplete Annotations in VOS Datasets:</h3>
+                        <ul>
+                            <li>VOS datasets label <strong>salient or interesting objects</strong>, not necessarily all moving objects</li>
+                            <li>As shown in the examples below, <strong>many truly moving objects are left unlabeled</strong></li>
+                            <li>This creates ambiguity: should a model predict only labeled objects or all moving objects?</li>
+                        </ul>
+                    </div>
+
+                    <div class="problem-box">
+                        <h3>⚠️ Consequences:</h3>
+                        <ul>
+                            <li>Supervised MS methods trained on VOS data tend to behave more like <strong>salient object segmentation</strong></li>
+                            <li>They learn to predict "interesting" objects rather than genuinely moving objects</li>
+                            <li>This deviation from true motion segmentation limits their practical applicability</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 1: breakdance -->
+            <div class="eval-section video-row">
+                <div class="video-row-header">
+                    <h3>📹 Example 1: breakdance</h3>
+                    <button class="btn video-control-btn" data-video="breakdance">▶️ Play All</button>
+                </div>
+                
+                <div class="eval-comparison">
+                    <div class="eval-video-panel">
+                        <h4 style="color: #757575;">RGB Video</h4>
+                        <video class="eval-video" data-video="breakdance" data-method="rgb" preload="metadata">
+                            <source src="runs/rgb_video/breakdance/rgb.mp4" type="video/mp4">
+                        </video>
+                        <p class="video-caption">Original video</p>
+                    </div>
+                    <div class="eval-video-panel">
+                        <h4 style="color: #4caf50;">Ground Truth (VOS Annotation)</h4>
+                        <video class="eval-video" data-video="breakdance" data-method="gt" preload="metadata">
+                            <source src="runs/annotations/breakdance/result.mp4" type="video/mp4">
+                        </video>
+                        <p class="video-caption">Only the main dancer is labeled; the surrounding grooving audience are not labeled</p>
+                    </div>
+                    <div class="eval-video-panel">
+                        <h4 style="color: #e91e63;">Ours</h4>
+                        <video class="eval-video" data-video="breakdance" data-method="ours" preload="metadata">
+                            <source src="runs/ours/breakdance/tracks.mp4" type="video/mp4">
+                        </video>
+                        <p class="video-caption">Our method identifies multiple moving objects</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 2: dog-agility -->
+            <div class="eval-section video-row">
+                <div class="video-row-header">
+                    <h3>📹 Example 2: dog-agility</h3>
+                    <button class="btn video-control-btn" data-video="dog-agility">▶️ Play All</button>
+                </div>
+                
+                <div class="eval-comparison">
+                    <div class="eval-video-panel">
+                        <h4 style="color: #757575;">RGB Video</h4>
+                        <video class="eval-video" data-video="dog-agility" data-method="rgb" preload="metadata">
+                            <source src="runs/rgb_video/dog-agility/rgb.mp4" type="video/mp4">
+                        </video>
+                        <p class="video-caption">Original video</p>
+                    </div>
+                    <div class="eval-video-panel">
+                        <h4 style="color: #4caf50;">Ground Truth (VOS Annotation)</h4>
+                        <video class="eval-video" data-video="dog-agility" data-method="gt" preload="metadata">
+                            <source src="runs/annotations/dog-agility/result.mp4" type="video/mp4">
+                        </video>
+                        <p class="video-caption">Only the dog is labeled; the moving weave poles are not labeled</p>
+                    </div>
+                    <div class="eval-video-panel">
+                        <h4 style="color: #e91e63;">Ours</h4>
+                        <video class="eval-video" data-video="dog-agility" data-method="ours" preload="metadata">
+                            <source src="runs/ours/dog-agility/tracks.mp4" type="video/mp4">
+                        </video>
+                        <p class="video-caption">Our method detects both the dog and the person</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                <p>💡 Tip: These examples illustrate the gap between VOS annotations and true motion segmentation requirements</p>
+            </footer>
+        </div>
+        <!-- End Tab 3 -->
+
+        <!-- Tab 4: Motion Definition -->
+        <div id="tab-motion" class="tab-content">
+            <!-- Problem Description -->
+            <div class="eval-section">
+                <div class="eval-header">
+                    <h2>📊 What Constitutes "Motion" in Motion Segmentation?</h2>
+                    <button id="toggleMotion" class="toggle-btn">▼ Hide</button>
+                </div>
+                <div id="motionContent" class="explanation-content">
+                    <p>Defining "motion" is more nuanced than it initially appears. While our epipolar geometry approach can detect most form of motion in world coordinates, not all detected motion is relevant for practical applications.</p>
+                    
+                    <div class="advantage-box">
+                        <h3>🌍 General Motion Definition:</h3>
+                        <ul>
+                            <li><strong>Physical Motion</strong>: Any change in world coordinates, detectable through epipolar geometry</li>
+                            <li>This includes: moving vehicles, walking people, animals, but also water ripples, shadows, reflections, etc.</li>
+                            <li>Our epipolar error inherently captures all these motions without discrimination</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="advantage-box">
+                        <h3>🎯 Task-Specific Motion (Practical Definition):</h3>
+                        <ul>
+                            <li>In downstream tasks like <strong>4D reconstruction</strong>, we care about <strong>rigid or articulated objects</strong></li>
+                            <li>Not all physical motion is relevant: water surfaces, shadows, reflections are typically excluded</li>
+                            <li>Our method adopts a <strong>practical definition</strong> aligned with real-world applications</li>
+                        </ul>
+                    </div>
+
+                    <div class="problem-box">
+                        <h3>⚠️ Challenge 1: Epipolar Error Captures Everything</h3>
+                        <ul>
+                            <li>Our epipolar-based approach can detect <strong>all motion patterns</strong>, including irrelevant ones</li>
+                            <li>Examples: floating water surfaces, moving shadows, reflections on glossy surfaces</li>
+                            <li>These are "motion" in the geometric sense, but not "objects" we want to segment</li>
+                        </ul>
+                    </div>
+
+                    <div class="problem-box">
+                        <h3>⚠️ Challenge 2: SAM's Limitation on Non-Objects</h3>
+                        <ul>
+                            <li>SAM is designed to segment <strong>objects</strong>, not abstract motion patterns</li>
+                            <li>When prompted with a shadow point on a road, SAM segments the <strong>entire road</strong>, not the shadow</li>
+                            <li>When prompted with water ripples, SAM struggles to define consistent boundaries</li>
+                            <li>These are not SAM's failures—they're simply outside its designed scope</li>
+                        </ul>
+                    </div>
+
+                    <div class="advantage-box">
+                        <h3>✅ Our Solution: Heuristic Filtering</h3>
+                        <ul>
+                            <li>To better serve real-world applications, our stage-3 <strong>heuristic filtering</strong> automatically removes irrelevant motion patterns, such as shadows, water ripples, and reflections, which typically appear in the background.</li>
+                            <li>This process ensures that only <strong>truly meaningful moving objects</strong>—like vehicles and people—are retained for downstream tasks such as 4D reconstruction.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video Example: car-roundabout -->
+            <div class="eval-section video-row">
+                <div class="video-row-header">
+                    <h3>📹 Example: car-roundabout</h3>
+                    <button class="btn video-control-btn" data-video="car-roundabout">▶️ Play All</button>
+                </div>
+                
+                <div class="eval-comparison">
+                    <div class="eval-video-panel">
+                        <h4 style="color: #757575;">RGB Video</h4>
+                        <video class="eval-video" data-video="car-roundabout" data-method="rgb" preload="metadata">
+                            <source src="runs/rgb_video/car-roundabout/rgb.mp4" type="video/mp4">
+                        </video>
+                        <p class="video-caption">Original video with moving cars and shadows</p>
+                    </div>
+                    <div class="eval-video-panel">
+                        <h4 style="color: #e91e63;">Ours (without heuristic filtering)</h4>
+                        <video class="eval-video" data-video="car-roundabout" data-method="ours_bg" preload="metadata">
+                            <source src="runs/ours_bg/car-roundabout/tracks.mp4" type="video/mp4">
+                        </video>
+                        <p class="video-caption">Before filtering: includes shadows and road</p>
+                    </div>
+                    <div class="eval-video-panel">
+                        <h4 style="color: #4caf50;">Ours (with heuristic filtering)</h4>
+                        <video class="eval-video" data-video="car-roundabout" data-method="ours" preload="metadata">
+                            <source src="runs/ours/car-roundabout/tracks.mp4" type="video/mp4">
+                        </video>
+                        <p class="video-caption">After filtering: only meaningful moving objects retained</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                <p>💡 Tip: Our approach balances geometric completeness with practical utility through heuristic filtering</p>
+            </footer>
+        </div>
+        <!-- End Tab 4 -->
 
     </div>
 

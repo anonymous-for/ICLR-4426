@@ -527,6 +527,38 @@ function setupEvaluationListeners() {
         });
     }
     
+    // Toggle Tab3 annotation analysis explanation
+    const toggleAnnotationBtn = document.getElementById('toggleAnnotation');
+    const annotationContent = document.getElementById('annotationContent');
+    
+    if (toggleAnnotationBtn && annotationContent) {
+        toggleAnnotationBtn.addEventListener('click', () => {
+            if (annotationContent.classList.contains('collapsed')) {
+                annotationContent.classList.remove('collapsed');
+                toggleAnnotationBtn.textContent = '▼ Hide';
+            } else {
+                annotationContent.classList.add('collapsed');
+                toggleAnnotationBtn.textContent = '▶ Show';
+            }
+        });
+    }
+    
+    // Toggle Tab4 motion definition explanation
+    const toggleMotionBtn = document.getElementById('toggleMotion');
+    const motionContent = document.getElementById('motionContent');
+    
+    if (toggleMotionBtn && motionContent) {
+        toggleMotionBtn.addEventListener('click', () => {
+            if (motionContent.classList.contains('collapsed')) {
+                motionContent.classList.remove('collapsed');
+                toggleMotionBtn.textContent = '▼ Hide';
+            } else {
+                motionContent.classList.add('collapsed');
+                toggleMotionBtn.textContent = '▶ Show';
+            }
+        });
+    }
+    
     // Add listener for each video row's play button
     document.querySelectorAll('.video-control-btn').forEach(btn => {
         const videoName = btn.dataset.video;

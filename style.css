@@ -43,6 +43,67 @@ header {
     box-shadow: var(--shadow);
 }
 
+/* Overview Section */
+.overview-section {
+    background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin-bottom: 20px;
+    box-shadow: var(--shadow);
+    border: 2px solid var(--border-color);
+}
+
+.overview-content {
+    color: var(--text-primary);
+}
+
+.overview-intro {
+    font-size: 0.98rem;
+    line-height: 1.6;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.tab-overview-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.tab-overview-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px;
+    background-color: var(--bg-primary);
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s;
+}
+
+.tab-overview-item:hover {
+    border-color: var(--accent-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(74, 158, 255, 0.2);
+}
+
+.tab-overview-number {
+    font-size: 1.3rem;
+    flex-shrink: 0;
+}
+
+.tab-overview-text {
+    font-size: 0.88rem;
+    line-height: 1.4;
+}
+
+.tab-overview-text strong {
+    color: var(--accent-color);
+    display: block;
+    margin-bottom: 2px;
+}
+
 /* Tab Navigation */
 .tab-navigation {
     display: flex;
@@ -564,7 +625,7 @@ footer {
 }
 
 .explanation-content {
-    max-height: 1000px;
+    max-height: 1500px;
     overflow-y: auto;
     transition: max-height 0.3s ease-out;
 }
@@ -699,11 +760,28 @@ footer {
     opacity: 0.6;
 }
 
+.video-caption {
+    margin-top: 8px;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    text-align: center;
+    line-height: 1.4;
+    font-style: italic;
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
     header h1 {
         font-size: 1.8rem;
+    }
+
+    .overview-intro {
+        font-size: 0.95rem;
+    }
+
+    .tab-overview-grid {
+        grid-template-columns: 1fr;
     }
 
     .controls {
