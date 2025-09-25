@@ -1,0 +1,1720 @@
+{
+    "videos": [
+        {
+            "name": "bear",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/bear/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/bear/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/bear/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/bear/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/bear/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/bear/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/bear/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "blackswan",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/blackswan/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/blackswan/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/blackswan/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/blackswan/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/blackswan/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/blackswan/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/blackswan/thumbnail.png"
+                },
+                "appear-refine": {
+                    "video": "runs/appear-refine/blackswan/result.mp4",
+                    "name": "Appear-Refine",
+                    "color": "#00bcd4",
+                    "thumbnail": "runs/appear-refine/blackswan/thumbnail.png"
+                },
+                "oclr": {
+                    "video": "runs/oclr/blackswan/result.mp4",
+                    "name": "OCLR",
+                    "color": "#ffc107",
+                    "thumbnail": "runs/oclr/blackswan/thumbnail.png"
+                },
+                "flow-sam": {
+                    "video": "runs/flow-sam/blackswan/result.mp4",
+                    "name": "Flow-SAM",
+                    "color": "#ff5722",
+                    "thumbnail": "runs/flow-sam/blackswan/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "bmx-trees",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/bmx-trees/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/bmx-trees/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/bmx-trees/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/bmx-trees/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/bmx-trees/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/bmx-trees/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/bmx-trees/thumbnail.png"
+                },
+                "appear-refine": {
+                    "video": "runs/appear-refine/bmx-trees/result.mp4",
+                    "name": "Appear-Refine",
+                    "color": "#00bcd4",
+                    "thumbnail": "runs/appear-refine/bmx-trees/thumbnail.png"
+                },
+                "oclr": {
+                    "video": "runs/oclr/bmx-trees/result.mp4",
+                    "name": "OCLR",
+                    "color": "#ffc107",
+                    "thumbnail": "runs/oclr/bmx-trees/thumbnail.png"
+                },
+                "flow-sam": {
+                    "video": "runs/flow-sam/bmx-trees/result.mp4",
+                    "name": "Flow-SAM",
+                    "color": "#ff5722",
+                    "thumbnail": "runs/flow-sam/bmx-trees/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "breakdance",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/breakdance/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/breakdance/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/breakdance/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/breakdance/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/breakdance/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/breakdance/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/breakdance/thumbnail.png"
+                },
+                "appear-refine": {
+                    "video": "runs/appear-refine/breakdance/result.mp4",
+                    "name": "Appear-Refine",
+                    "color": "#00bcd4",
+                    "thumbnail": "runs/appear-refine/breakdance/thumbnail.png"
+                },
+                "oclr": {
+                    "video": "runs/oclr/breakdance/result.mp4",
+                    "name": "OCLR",
+                    "color": "#ffc107",
+                    "thumbnail": "runs/oclr/breakdance/thumbnail.png"
+                },
+                "flow-sam": {
+                    "video": "runs/flow-sam/breakdance/result.mp4",
+                    "name": "Flow-SAM",
+                    "color": "#ff5722",
+                    "thumbnail": "runs/flow-sam/breakdance/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "breakdance-flare",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/breakdance-flare/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/breakdance-flare/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/breakdance-flare/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/breakdance-flare/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/breakdance-flare/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/breakdance-flare/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/breakdance-flare/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "bus",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/bus/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/bus/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/bus/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/bus/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/bus/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/bus/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/bus/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "camel",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/camel/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/camel/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/camel/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/camel/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/camel/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/camel/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/camel/thumbnail.png"
+                },
+                "appear-refine": {
+                    "video": "runs/appear-refine/camel/result.mp4",
+                    "name": "Appear-Refine",
+                    "color": "#00bcd4",
+                    "thumbnail": "runs/appear-refine/camel/thumbnail.png"
+                },
+                "oclr": {
+                    "video": "runs/oclr/camel/result.mp4",
+                    "name": "OCLR",
+                    "color": "#ffc107",
+                    "thumbnail": "runs/oclr/camel/thumbnail.png"
+                },
+                "flow-sam": {
+                    "video": "runs/flow-sam/camel/result.mp4",
+                    "name": "Flow-SAM",
+                    "color": "#ff5722",
+                    "thumbnail": "runs/flow-sam/camel/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "car-roundabout",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/car-roundabout/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/car-roundabout/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/car-roundabout/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/car-roundabout/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/car-roundabout/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/car-roundabout/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/car-roundabout/thumbnail.png"
+                },
+                "appear-refine": {
+                    "video": "runs/appear-refine/car-roundabout/result.mp4",
+                    "name": "Appear-Refine",
+                    "color": "#00bcd4",
+                    "thumbnail": "runs/appear-refine/car-roundabout/thumbnail.png"
+                },
+                "oclr": {
+                    "video": "runs/oclr/car-roundabout/result.mp4",
+                    "name": "OCLR",
+                    "color": "#ffc107",
+                    "thumbnail": "runs/oclr/car-roundabout/thumbnail.png"
+                },
+                "flow-sam": {
+                    "video": "runs/flow-sam/car-roundabout/result.mp4",
+                    "name": "Flow-SAM",
+                    "color": "#ff5722",
+                    "thumbnail": "runs/flow-sam/car-roundabout/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "car-shadow",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/car-shadow/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/car-shadow/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/car-shadow/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/car-shadow/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/car-shadow/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/car-shadow/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/car-shadow/thumbnail.png"
+                },
+                "appear-refine": {
+                    "video": "runs/appear-refine/car-shadow/result.mp4",
+                    "name": "Appear-Refine",
+                    "color": "#00bcd4",
+                    "thumbnail": "runs/appear-refine/car-shadow/thumbnail.png"
+                },
+                "oclr": {
+                    "video": "runs/oclr/car-shadow/result.mp4",
+                    "name": "OCLR",
+                    "color": "#ffc107",
+                    "thumbnail": "runs/oclr/car-shadow/thumbnail.png"
+                },
+                "flow-sam": {
+                    "video": "runs/flow-sam/car-shadow/result.mp4",
+                    "name": "Flow-SAM",
+                    "color": "#ff5722",
+                    "thumbnail": "runs/flow-sam/car-shadow/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "car-turn",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/car-turn/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/car-turn/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/car-turn/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/car-turn/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/car-turn/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/car-turn/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/car-turn/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "cows",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/cows/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/cows/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/cows/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/cows/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/cows/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/cows/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/cows/thumbnail.png"
+                },
+                "appear-refine": {
+                    "video": "runs/appear-refine/cows/result.mp4",
+                    "name": "Appear-Refine",
+                    "color": "#00bcd4",
+                    "thumbnail": "runs/appear-refine/cows/thumbnail.png"
+                },
+                "oclr": {
+                    "video": "runs/oclr/cows/result.mp4",
+                    "name": "OCLR",
+                    "color": "#ffc107",
+                    "thumbnail": "runs/oclr/cows/thumbnail.png"
+                },
+                "flow-sam": {
+                    "video": "runs/flow-sam/cows/result.mp4",
+                    "name": "Flow-SAM",
+                    "color": "#ff5722",
+                    "thumbnail": "runs/flow-sam/cows/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "dance-jump",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/dance-jump/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/dance-jump/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/dance-jump/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/dance-jump/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/dance-jump/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/dance-jump/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/dance-jump/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "dance-twirl",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/dance-twirl/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/dance-twirl/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/dance-twirl/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/dance-twirl/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/dance-twirl/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/dance-twirl/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/dance-twirl/thumbnail.png"
+                },
+                "appear-refine": {
+                    "video": "runs/appear-refine/dance-twirl/result.mp4",
+                    "name": "Appear-Refine",
+                    "color": "#00bcd4",
+                    "thumbnail": "runs/appear-refine/dance-twirl/thumbnail.png"
+                },
+                "oclr": {
+                    "video": "runs/oclr/dance-twirl/result.mp4",
+                    "name": "OCLR",
+                    "color": "#ffc107",
+                    "thumbnail": "runs/oclr/dance-twirl/thumbnail.png"
+                },
+                "flow-sam": {
+                    "video": "runs/flow-sam/dance-twirl/result.mp4",
+                    "name": "Flow-SAM",
+                    "color": "#ff5722",
+                    "thumbnail": "runs/flow-sam/dance-twirl/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "dog",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/dog/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/dog/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/dog/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/dog/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/dog/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/dog/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/dog/thumbnail.png"
+                },
+                "appear-refine": {
+                    "video": "runs/appear-refine/dog/result.mp4",
+                    "name": "Appear-Refine",
+                    "color": "#00bcd4",
+                    "thumbnail": "runs/appear-refine/dog/thumbnail.png"
+                },
+                "oclr": {
+                    "video": "runs/oclr/dog/result.mp4",
+                    "name": "OCLR",
+                    "color": "#ffc107",
+                    "thumbnail": "runs/oclr/dog/thumbnail.png"
+                },
+                "flow-sam": {
+                    "video": "runs/flow-sam/dog/result.mp4",
+                    "name": "Flow-SAM",
+                    "color": "#ff5722",
+                    "thumbnail": "runs/flow-sam/dog/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "dog-agility",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/dog-agility/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/dog-agility/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/dog-agility/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/dog-agility/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/dog-agility/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/dog-agility/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/dog-agility/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "drift-chicane",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/drift-chicane/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/drift-chicane/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/drift-chicane/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/drift-chicane/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/drift-chicane/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/drift-chicane/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/drift-chicane/thumbnail.png"
+                },
+                "appear-refine": {
+                    "video": "runs/appear-refine/drift-chicane/result.mp4",
+                    "name": "Appear-Refine",
+                    "color": "#00bcd4",
+                    "thumbnail": "runs/appear-refine/drift-chicane/thumbnail.png"
+                },
+                "oclr": {
+                    "video": "runs/oclr/drift-chicane/result.mp4",
+                    "name": "OCLR",
+                    "color": "#ffc107",
+                    "thumbnail": "runs/oclr/drift-chicane/thumbnail.png"
+                },
+                "flow-sam": {
+                    "video": "runs/flow-sam/drift-chicane/result.mp4",
+                    "name": "Flow-SAM",
+                    "color": "#ff5722",
+                    "thumbnail": "runs/flow-sam/drift-chicane/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "drift-straight",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/drift-straight/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/drift-straight/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/drift-straight/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/drift-straight/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/drift-straight/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/drift-straight/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/drift-straight/thumbnail.png"
+                },
+                "appear-refine": {
+                    "video": "runs/appear-refine/drift-straight/result.mp4",
+                    "name": "Appear-Refine",
+                    "color": "#00bcd4",
+                    "thumbnail": "runs/appear-refine/drift-straight/thumbnail.png"
+                },
+                "oclr": {
+                    "video": "runs/oclr/drift-straight/result.mp4",
+                    "name": "OCLR",
+                    "color": "#ffc107",
+                    "thumbnail": "runs/oclr/drift-straight/thumbnail.png"
+                },
+                "flow-sam": {
+                    "video": "runs/flow-sam/drift-straight/result.mp4",
+                    "name": "Flow-SAM",
+                    "color": "#ff5722",
+                    "thumbnail": "runs/flow-sam/drift-straight/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "drift-turn",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/drift-turn/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/drift-turn/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/drift-turn/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/drift-turn/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/drift-turn/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/drift-turn/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/drift-turn/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "elephant",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/elephant/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/elephant/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/elephant/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/elephant/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/elephant/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/elephant/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/elephant/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "flamingo",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/flamingo/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/flamingo/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/flamingo/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/flamingo/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/flamingo/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/flamingo/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/flamingo/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "goat",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/goat/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/goat/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/goat/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/goat/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/goat/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/goat/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/goat/thumbnail.png"
+                },
+                "appear-refine": {
+                    "video": "runs/appear-refine/goat/result.mp4",
+                    "name": "Appear-Refine",
+                    "color": "#00bcd4",
+                    "thumbnail": "runs/appear-refine/goat/thumbnail.png"
+                },
+                "oclr": {
+                    "video": "runs/oclr/goat/result.mp4",
+                    "name": "OCLR",
+                    "color": "#ffc107",
+                    "thumbnail": "runs/oclr/goat/thumbnail.png"
+                },
+                "flow-sam": {
+                    "video": "runs/flow-sam/goat/result.mp4",
+                    "name": "Flow-SAM",
+                    "color": "#ff5722",
+                    "thumbnail": "runs/flow-sam/goat/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "hike",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/hike/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/hike/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/hike/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/hike/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/hike/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/hike/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/hike/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "hockey",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/hockey/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/hockey/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/hockey/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/hockey/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/hockey/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/hockey/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/hockey/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "horsejump-high",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/horsejump-high/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/horsejump-high/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/horsejump-high/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/horsejump-high/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/horsejump-high/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/horsejump-high/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/horsejump-high/thumbnail.png"
+                },
+                "appear-refine": {
+                    "video": "runs/appear-refine/horsejump-high/result.mp4",
+                    "name": "Appear-Refine",
+                    "color": "#00bcd4",
+                    "thumbnail": "runs/appear-refine/horsejump-high/thumbnail.png"
+                },
+                "oclr": {
+                    "video": "runs/oclr/horsejump-high/result.mp4",
+                    "name": "OCLR",
+                    "color": "#ffc107",
+                    "thumbnail": "runs/oclr/horsejump-high/thumbnail.png"
+                },
+                "flow-sam": {
+                    "video": "runs/flow-sam/horsejump-high/result.mp4",
+                    "name": "Flow-SAM",
+                    "color": "#ff5722",
+                    "thumbnail": "runs/flow-sam/horsejump-high/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "horsejump-low",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/horsejump-low/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/horsejump-low/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/horsejump-low/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/horsejump-low/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/horsejump-low/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/horsejump-low/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/horsejump-low/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "kite-surf",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/kite-surf/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/kite-surf/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/kite-surf/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/kite-surf/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/kite-surf/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/kite-surf/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/kite-surf/thumbnail.png"
+                },
+                "appear-refine": {
+                    "video": "runs/appear-refine/kite-surf/result.mp4",
+                    "name": "Appear-Refine",
+                    "color": "#00bcd4",
+                    "thumbnail": "runs/appear-refine/kite-surf/thumbnail.png"
+                },
+                "oclr": {
+                    "video": "runs/oclr/kite-surf/result.mp4",
+                    "name": "OCLR",
+                    "color": "#ffc107",
+                    "thumbnail": "runs/oclr/kite-surf/thumbnail.png"
+                },
+                "flow-sam": {
+                    "video": "runs/flow-sam/kite-surf/result.mp4",
+                    "name": "Flow-SAM",
+                    "color": "#ff5722",
+                    "thumbnail": "runs/flow-sam/kite-surf/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "kite-walk",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/kite-walk/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/kite-walk/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/kite-walk/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/kite-walk/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/kite-walk/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/kite-walk/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/kite-walk/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "libby",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/libby/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/libby/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/libby/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/libby/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/libby/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/libby/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/libby/thumbnail.png"
+                },
+                "appear-refine": {
+                    "video": "runs/appear-refine/libby/result.mp4",
+                    "name": "Appear-Refine",
+                    "color": "#00bcd4",
+                    "thumbnail": "runs/appear-refine/libby/thumbnail.png"
+                },
+                "oclr": {
+                    "video": "runs/oclr/libby/result.mp4",
+                    "name": "OCLR",
+                    "color": "#ffc107",
+                    "thumbnail": "runs/oclr/libby/thumbnail.png"
+                },
+                "flow-sam": {
+                    "video": "runs/flow-sam/libby/result.mp4",
+                    "name": "Flow-SAM",
+                    "color": "#ff5722",
+                    "thumbnail": "runs/flow-sam/libby/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "lucia",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/lucia/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/lucia/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/lucia/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/lucia/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/lucia/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/lucia/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/lucia/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "mallard-fly",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/mallard-fly/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/mallard-fly/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/mallard-fly/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/mallard-fly/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/mallard-fly/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/mallard-fly/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/mallard-fly/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "mallard-water",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/mallard-water/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/mallard-water/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/mallard-water/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/mallard-water/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/mallard-water/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/mallard-water/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/mallard-water/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "motocross-jump",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/motocross-jump/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/motocross-jump/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/motocross-jump/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/motocross-jump/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/motocross-jump/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/motocross-jump/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/motocross-jump/thumbnail.png"
+                },
+                "appear-refine": {
+                    "video": "runs/appear-refine/motocross-jump/result.mp4",
+                    "name": "Appear-Refine",
+                    "color": "#00bcd4",
+                    "thumbnail": "runs/appear-refine/motocross-jump/thumbnail.png"
+                },
+                "oclr": {
+                    "video": "runs/oclr/motocross-jump/result.mp4",
+                    "name": "OCLR",
+                    "color": "#ffc107",
+                    "thumbnail": "runs/oclr/motocross-jump/thumbnail.png"
+                },
+                "flow-sam": {
+                    "video": "runs/flow-sam/motocross-jump/result.mp4",
+                    "name": "Flow-SAM",
+                    "color": "#ff5722",
+                    "thumbnail": "runs/flow-sam/motocross-jump/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "motorbike",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/motorbike/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/motorbike/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/motorbike/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/motorbike/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/motorbike/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/motorbike/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/motorbike/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "paragliding",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/paragliding/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/paragliding/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/paragliding/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/paragliding/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/paragliding/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/paragliding/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/paragliding/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "paragliding-launch",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/paragliding-launch/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/paragliding-launch/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/paragliding-launch/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/paragliding-launch/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/paragliding-launch/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/paragliding-launch/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/paragliding-launch/thumbnail.png"
+                },
+                "appear-refine": {
+                    "video": "runs/appear-refine/paragliding-launch/result.mp4",
+                    "name": "Appear-Refine",
+                    "color": "#00bcd4",
+                    "thumbnail": "runs/appear-refine/paragliding-launch/thumbnail.png"
+                },
+                "oclr": {
+                    "video": "runs/oclr/paragliding-launch/result.mp4",
+                    "name": "OCLR",
+                    "color": "#ffc107",
+                    "thumbnail": "runs/oclr/paragliding-launch/thumbnail.png"
+                },
+                "flow-sam": {
+                    "video": "runs/flow-sam/paragliding-launch/result.mp4",
+                    "name": "Flow-SAM",
+                    "color": "#ff5722",
+                    "thumbnail": "runs/flow-sam/paragliding-launch/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "parkour",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/parkour/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/parkour/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/parkour/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/parkour/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/parkour/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/parkour/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/parkour/thumbnail.png"
+                },
+                "appear-refine": {
+                    "video": "runs/appear-refine/parkour/result.mp4",
+                    "name": "Appear-Refine",
+                    "color": "#00bcd4",
+                    "thumbnail": "runs/appear-refine/parkour/thumbnail.png"
+                },
+                "oclr": {
+                    "video": "runs/oclr/parkour/result.mp4",
+                    "name": "OCLR",
+                    "color": "#ffc107",
+                    "thumbnail": "runs/oclr/parkour/thumbnail.png"
+                },
+                "flow-sam": {
+                    "video": "runs/flow-sam/parkour/result.mp4",
+                    "name": "Flow-SAM",
+                    "color": "#ff5722",
+                    "thumbnail": "runs/flow-sam/parkour/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "rhino",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/rhino/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/rhino/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/rhino/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/rhino/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/rhino/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/rhino/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/rhino/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "rollerblade",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/rollerblade/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/rollerblade/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/rollerblade/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/rollerblade/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/rollerblade/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/rollerblade/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/rollerblade/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "scooter-black",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/scooter-black/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/scooter-black/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/scooter-black/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/scooter-black/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/scooter-black/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/scooter-black/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/scooter-black/thumbnail.png"
+                },
+                "appear-refine": {
+                    "video": "runs/appear-refine/scooter-black/result.mp4",
+                    "name": "Appear-Refine",
+                    "color": "#00bcd4",
+                    "thumbnail": "runs/appear-refine/scooter-black/thumbnail.png"
+                },
+                "oclr": {
+                    "video": "runs/oclr/scooter-black/result.mp4",
+                    "name": "OCLR",
+                    "color": "#ffc107",
+                    "thumbnail": "runs/oclr/scooter-black/thumbnail.png"
+                },
+                "flow-sam": {
+                    "video": "runs/flow-sam/scooter-black/result.mp4",
+                    "name": "Flow-SAM",
+                    "color": "#ff5722",
+                    "thumbnail": "runs/flow-sam/scooter-black/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "scooter-gray",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/scooter-gray/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/scooter-gray/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/scooter-gray/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/scooter-gray/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/scooter-gray/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/scooter-gray/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/scooter-gray/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "soapbox",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/soapbox/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/soapbox/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/soapbox/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/soapbox/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/soapbox/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/soapbox/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/soapbox/thumbnail.png"
+                },
+                "appear-refine": {
+                    "video": "runs/appear-refine/soapbox/result.mp4",
+                    "name": "Appear-Refine",
+                    "color": "#00bcd4",
+                    "thumbnail": "runs/appear-refine/soapbox/thumbnail.png"
+                },
+                "oclr": {
+                    "video": "runs/oclr/soapbox/result.mp4",
+                    "name": "OCLR",
+                    "color": "#ffc107",
+                    "thumbnail": "runs/oclr/soapbox/thumbnail.png"
+                },
+                "flow-sam": {
+                    "video": "runs/flow-sam/soapbox/result.mp4",
+                    "name": "Flow-SAM",
+                    "color": "#ff5722",
+                    "thumbnail": "runs/flow-sam/soapbox/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "soccerball",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/soccerball/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/soccerball/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/soccerball/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/soccerball/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/soccerball/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/soccerball/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/soccerball/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "stroller",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/stroller/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/stroller/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/stroller/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/stroller/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/stroller/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/stroller/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/stroller/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "surf",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/surf/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/surf/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/surf/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/surf/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/surf/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/surf/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/surf/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "swing",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/swing/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/swing/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/swing/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/swing/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/swing/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/swing/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/swing/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "tennis",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/tennis/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/tennis/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/tennis/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/tennis/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/tennis/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/tennis/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/tennis/thumbnail.png"
+                }
+            }
+        },
+        {
+            "name": "train",
+            "methods": {
+                "rgb_video": {
+                    "video": "runs/rgb_video/train/rgb.mp4",
+                    "name": "RGB Video",
+                    "color": "#757575",
+                    "thumbnail": "runs/rgb_video/train/thumbnail.png"
+                },
+                "annotations": {
+                    "video": "runs/annotations/train/result.mp4",
+                    "name": "Ground Truth",
+                    "color": "#4caf50",
+                    "thumbnail": "runs/annotations/train/thumbnail.png"
+                },
+                "ours": {
+                    "video": "runs/ours/train/tracks.mp4",
+                    "name": "Ours",
+                    "color": "#e91e63"
+                },
+                "stm": {
+                    "video": "runs/stm/train/result.mp4",
+                    "name": "STM",
+                    "color": "#9c27b0",
+                    "thumbnail": "runs/stm/train/thumbnail.png"
+                }
+            }
+        }
+    ],
+    "statistics": {
+        "total_videos": 47,
+        "methods": {
+            "rgb_video": {
+                "name": "RGB Video",
+                "count": 47,
+                "color": "#757575"
+            },
+            "annotations": {
+                "name": "Ground Truth",
+                "count": 47,
+                "color": "#4caf50"
+            },
+            "ours": {
+                "name": "Ours",
+                "count": 47,
+                "color": "#e91e63"
+            },
+            "stm": {
+                "name": "STM",
+                "count": 47,
+                "color": "#9c27b0"
+            },
+            "appear-refine": {
+                "name": "Appear-Refine",
+                "count": 20,
+                "color": "#00bcd4"
+            },
+            "oclr": {
+                "name": "OCLR",
+                "count": 20,
+                "color": "#ffc107"
+            },
+            "flow-sam": {
+                "name": "Flow-SAM",
+                "count": 20,
+                "color": "#ff5722"
+            }
+        }
+    }
+}
