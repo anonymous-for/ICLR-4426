@@ -20,6 +20,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/bear/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/bear/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/bear/result.mp4",
                     "name": "STM",
@@ -47,6 +53,12 @@
                     "video": "runs/ours/blackswan/tracks.mp4",
                     "name": "Ours",
                     "color": "#e91e63"
+                },
+                "epipolar": {
+                    "video": "runs/epipolar/blackswan/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/blackswan/thumbnail.png"
                 },
                 "stm": {
                     "video": "runs/stm/blackswan/result.mp4",
@@ -94,6 +106,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/bmx-trees/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/bmx-trees/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/bmx-trees/result.mp4",
                     "name": "STM",
@@ -139,6 +157,12 @@
                     "video": "runs/ours/breakdance/tracks.mp4",
                     "name": "Ours",
                     "color": "#e91e63"
+                },
+                "epipolar": {
+                    "video": "runs/epipolar/breakdance/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/breakdance/thumbnail.png"
                 },
                 "stm": {
                     "video": "runs/stm/breakdance/result.mp4",
@@ -186,6 +210,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/breakdance-flare/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/breakdance-flare/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/breakdance-flare/result.mp4",
                     "name": "STM",
@@ -214,6 +244,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/bus/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/bus/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/bus/result.mp4",
                     "name": "STM",
@@ -241,6 +277,12 @@
                     "video": "runs/ours/camel/tracks.mp4",
                     "name": "Ours",
                     "color": "#e91e63"
+                },
+                "epipolar": {
+                    "video": "runs/epipolar/camel/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/camel/thumbnail.png"
                 },
                 "stm": {
                     "video": "runs/stm/camel/result.mp4",
@@ -288,6 +330,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/car-roundabout/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/car-roundabout/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/car-roundabout/result.mp4",
                     "name": "STM",
@@ -333,6 +381,12 @@
                     "video": "runs/ours/car-shadow/tracks.mp4",
                     "name": "Ours",
                     "color": "#e91e63"
+                },
+                "epipolar": {
+                    "video": "runs/epipolar/car-shadow/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/car-shadow/thumbnail.png"
                 },
                 "stm": {
                     "video": "runs/stm/car-shadow/result.mp4",
@@ -380,6 +434,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/car-turn/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/car-turn/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/car-turn/result.mp4",
                     "name": "STM",
@@ -407,6 +467,12 @@
                     "video": "runs/ours/cows/tracks.mp4",
                     "name": "Ours",
                     "color": "#e91e63"
+                },
+                "epipolar": {
+                    "video": "runs/epipolar/cows/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/cows/thumbnail.png"
                 },
                 "stm": {
                     "video": "runs/stm/cows/result.mp4",
@@ -454,6 +520,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/dance-jump/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/dance-jump/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/dance-jump/result.mp4",
                     "name": "STM",
@@ -481,6 +553,12 @@
                     "video": "runs/ours/dance-twirl/tracks.mp4",
                     "name": "Ours",
                     "color": "#e91e63"
+                },
+                "epipolar": {
+                    "video": "runs/epipolar/dance-twirl/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/dance-twirl/thumbnail.png"
                 },
                 "stm": {
                     "video": "runs/stm/dance-twirl/result.mp4",
@@ -528,6 +606,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/dog/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/dog/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/dog/result.mp4",
                     "name": "STM",
@@ -574,6 +658,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/dog-agility/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/dog-agility/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/dog-agility/result.mp4",
                     "name": "STM",
@@ -601,6 +691,12 @@
                     "video": "runs/ours/drift-chicane/tracks.mp4",
                     "name": "Ours",
                     "color": "#e91e63"
+                },
+                "epipolar": {
+                    "video": "runs/epipolar/drift-chicane/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/drift-chicane/thumbnail.png"
                 },
                 "stm": {
                     "video": "runs/stm/drift-chicane/result.mp4",
@@ -648,6 +744,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/drift-straight/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/drift-straight/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/drift-straight/result.mp4",
                     "name": "STM",
@@ -694,6 +796,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/drift-turn/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/drift-turn/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/drift-turn/result.mp4",
                     "name": "STM",
@@ -721,6 +829,12 @@
                     "video": "runs/ours/elephant/tracks.mp4",
                     "name": "Ours",
                     "color": "#e91e63"
+                },
+                "epipolar": {
+                    "video": "runs/epipolar/elephant/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/elephant/thumbnail.png"
                 },
                 "stm": {
                     "video": "runs/stm/elephant/result.mp4",
@@ -750,6 +864,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/flamingo/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/flamingo/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/flamingo/result.mp4",
                     "name": "STM",
@@ -777,6 +897,12 @@
                     "video": "runs/ours/goat/tracks.mp4",
                     "name": "Ours",
                     "color": "#e91e63"
+                },
+                "epipolar": {
+                    "video": "runs/epipolar/goat/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/goat/thumbnail.png"
                 },
                 "stm": {
                     "video": "runs/stm/goat/result.mp4",
@@ -824,6 +950,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/hike/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/hike/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/hike/result.mp4",
                     "name": "STM",
@@ -852,6 +984,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/hockey/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/hockey/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/hockey/result.mp4",
                     "name": "STM",
@@ -879,6 +1017,12 @@
                     "video": "runs/ours/horsejump-high/tracks.mp4",
                     "name": "Ours",
                     "color": "#e91e63"
+                },
+                "epipolar": {
+                    "video": "runs/epipolar/horsejump-high/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/horsejump-high/thumbnail.png"
                 },
                 "stm": {
                     "video": "runs/stm/horsejump-high/result.mp4",
@@ -926,6 +1070,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/horsejump-low/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/horsejump-low/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/horsejump-low/result.mp4",
                     "name": "STM",
@@ -953,6 +1103,12 @@
                     "video": "runs/ours/kite-surf/tracks.mp4",
                     "name": "Ours",
                     "color": "#e91e63"
+                },
+                "epipolar": {
+                    "video": "runs/epipolar/kite-surf/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/kite-surf/thumbnail.png"
                 },
                 "stm": {
                     "video": "runs/stm/kite-surf/result.mp4",
@@ -1000,6 +1156,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/kite-walk/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/kite-walk/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/kite-walk/result.mp4",
                     "name": "STM",
@@ -1027,6 +1189,12 @@
                     "video": "runs/ours/libby/tracks.mp4",
                     "name": "Ours",
                     "color": "#e91e63"
+                },
+                "epipolar": {
+                    "video": "runs/epipolar/libby/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/libby/thumbnail.png"
                 },
                 "stm": {
                     "video": "runs/stm/libby/result.mp4",
@@ -1074,6 +1242,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/lucia/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/lucia/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/lucia/result.mp4",
                     "name": "STM",
@@ -1101,6 +1275,12 @@
                     "video": "runs/ours/mallard-fly/tracks.mp4",
                     "name": "Ours",
                     "color": "#e91e63"
+                },
+                "epipolar": {
+                    "video": "runs/epipolar/mallard-fly/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/mallard-fly/thumbnail.png"
                 },
                 "stm": {
                     "video": "runs/stm/mallard-fly/result.mp4",
@@ -1130,6 +1310,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/mallard-water/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/mallard-water/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/mallard-water/result.mp4",
                     "name": "STM",
@@ -1157,6 +1343,12 @@
                     "video": "runs/ours/motocross-jump/tracks.mp4",
                     "name": "Ours",
                     "color": "#e91e63"
+                },
+                "epipolar": {
+                    "video": "runs/epipolar/motocross-jump/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/motocross-jump/thumbnail.png"
                 },
                 "stm": {
                     "video": "runs/stm/motocross-jump/result.mp4",
@@ -1204,6 +1396,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/motorbike/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/motorbike/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/motorbike/result.mp4",
                     "name": "STM",
@@ -1232,6 +1430,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/paragliding/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/paragliding/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/paragliding/result.mp4",
                     "name": "STM",
@@ -1259,6 +1463,12 @@
                     "video": "runs/ours/paragliding-launch/tracks.mp4",
                     "name": "Ours",
                     "color": "#e91e63"
+                },
+                "epipolar": {
+                    "video": "runs/epipolar/paragliding-launch/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/paragliding-launch/thumbnail.png"
                 },
                 "stm": {
                     "video": "runs/stm/paragliding-launch/result.mp4",
@@ -1306,6 +1516,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/parkour/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/parkour/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/parkour/result.mp4",
                     "name": "STM",
@@ -1352,6 +1568,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/rhino/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/rhino/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/rhino/result.mp4",
                     "name": "STM",
@@ -1380,6 +1602,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/rollerblade/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/rollerblade/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/rollerblade/result.mp4",
                     "name": "STM",
@@ -1407,6 +1635,12 @@
                     "video": "runs/ours/scooter-black/tracks.mp4",
                     "name": "Ours",
                     "color": "#e91e63"
+                },
+                "epipolar": {
+                    "video": "runs/epipolar/scooter-black/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/scooter-black/thumbnail.png"
                 },
                 "stm": {
                     "video": "runs/stm/scooter-black/result.mp4",
@@ -1454,6 +1688,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/scooter-gray/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/scooter-gray/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/scooter-gray/result.mp4",
                     "name": "STM",
@@ -1481,6 +1721,12 @@
                     "video": "runs/ours/soapbox/tracks.mp4",
                     "name": "Ours",
                     "color": "#e91e63"
+                },
+                "epipolar": {
+                    "video": "runs/epipolar/soapbox/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/soapbox/thumbnail.png"
                 },
                 "stm": {
                     "video": "runs/stm/soapbox/result.mp4",
@@ -1528,6 +1774,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/soccerball/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/soccerball/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/soccerball/result.mp4",
                     "name": "STM",
@@ -1555,6 +1807,12 @@
                     "video": "runs/ours/stroller/tracks.mp4",
                     "name": "Ours",
                     "color": "#e91e63"
+                },
+                "epipolar": {
+                    "video": "runs/epipolar/stroller/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/stroller/thumbnail.png"
                 },
                 "stm": {
                     "video": "runs/stm/stroller/result.mp4",
@@ -1584,6 +1842,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/surf/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/surf/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/surf/result.mp4",
                     "name": "STM",
@@ -1611,6 +1875,12 @@
                     "video": "runs/ours/swing/tracks.mp4",
                     "name": "Ours",
                     "color": "#e91e63"
+                },
+                "epipolar": {
+                    "video": "runs/epipolar/swing/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/swing/thumbnail.png"
                 },
                 "stm": {
                     "video": "runs/stm/swing/result.mp4",
@@ -1640,6 +1910,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/tennis/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/tennis/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/tennis/result.mp4",
                     "name": "STM",
@@ -1668,6 +1944,12 @@
                     "name": "Ours",
                     "color": "#e91e63"
                 },
+                "epipolar": {
+                    "video": "runs/epipolar/train/result.mp4",
+                    "name": "Epipolar",
+                    "color": "#03a9f4",
+                    "thumbnail": "runs/epipolar/train/thumbnail.png"
+                },
                 "stm": {
                     "video": "runs/stm/train/result.mp4",
                     "name": "STM",
@@ -1694,6 +1976,11 @@
                 "name": "Ours",
                 "count": 47,
                 "color": "#e91e63"
+            },
+            "epipolar": {
+                "name": "Epipolar",
+                "count": 47,
+                "color": "#03a9f4"
             },
             "stm": {
                 "name": "STM",
